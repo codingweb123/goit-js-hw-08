@@ -65,7 +65,7 @@ document.onreadystatechange = () => {
 		},
 	]
 	const instances = {}
-	const galleryBlock = document.querySelector("#gallery")
+	const galleryBlock = document.querySelector(".gallery")
 	const galleryShow = item => {
 		const original = item.getAttribute("data-source")
 		instances[original].show()
