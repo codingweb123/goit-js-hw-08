@@ -1,0 +1,21 @@
+::after,
+::before {
+    box-sizing: border-box
+}
+
+li {
+    list-style: none
+}
+
+img {
+    display: block;
+    object-fit: cover
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4
+}
